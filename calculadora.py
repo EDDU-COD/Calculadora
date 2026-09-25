@@ -112,8 +112,8 @@ class Calculadora(ctk.CTk):
         # Definición de la distribución: (texto, fila, columna, tipo, columnspan)
         # tipo -> "numero", "operador", "funcion", "igual"
         botones = [
-            ("AC", 0, 0, "funcion", 1),
-            ("⌫", 0, 1, "funcion", 1),
+            ("⌫", 0, 0, "funcion", 1),
+            ("AC", 0, 1, "funcion", 1),
             ("%", 0, 2, "funcion", 1),
             ("÷", 0, 3, "operador", 1),
  
